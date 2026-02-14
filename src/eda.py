@@ -146,14 +146,14 @@ class EDA:
         
     def print_key_insights(self):
         """Print key insights from EDA"""
-        print("\n" + "="*60)
+        print("\n" + "="*80)
         print("KEY INSIGHTS")
-        print("="*60)
+        print("="*80)
         
         # Discount insight
         avg_discount_ontime = self.df[self.df[self.target_col]==0]['Discount_offered'].mean()
         avg_discount_delayed = self.df[self.df[self.target_col]==1]['Discount_offered'].mean()
-        print(f"\n💰 DISCOUNT PARADOX:")
+        print(f"\n DISCOUNT PARADOX:")
         print(f"   On-time orders: {avg_discount_ontime:.2f}% avg discount")
         print(f"   Delayed orders: {avg_discount_delayed:.2f}% avg discount")
         print(f"   → High discounts correlate with delays!")
@@ -161,14 +161,14 @@ class EDA:
         # Weight insight
         avg_weight_ontime = self.df[self.df[self.target_col]==0]['Weight_in_gms'].mean()
         avg_weight_delayed = self.df[self.df[self.target_col]==1]['Weight_in_gms'].mean()
-        print(f"\n⚖️  WEIGHT IMPACT:")
+        print(f"\n  WEIGHT IMPACT:")
         print(f"   On-time orders: {avg_weight_ontime:.0f}g avg weight")
         print(f"   Delayed orders: {avg_weight_delayed:.0f}g avg weight")
         print(f"   → Heavier items arrive on time more often!")
         
         # Product importance
         importance_delays = self.df.groupby('Product_importance')[self.target_col].mean() * 100
-        print(f"\n⭐ PRODUCT IMPORTANCE PARADOX:")
+        print(f"\n PRODUCT IMPORTANCE PARADOX:")
         for imp in ['low', 'medium', 'high']:
             if imp in importance_delays.index:
                 print(f"   {imp.capitalize()}: {importance_delays[imp]:.1f}% delay rate")
