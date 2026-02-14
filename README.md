@@ -1,5 +1,9 @@
-cat > README.md << 'EOF'
+
+<<<<<<< HEAD
 #  E-Commerce Delivery Time Prediction
+=======
+# E-Commerce Delivery Time Prediction
+>>>>>>> 7e379c4ab9f8c4d59dc7902d42f11a66a6b752cb
 
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-1.4.0-orange.svg)
