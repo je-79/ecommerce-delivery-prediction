@@ -8,6 +8,11 @@
 ![Streamlit](https://img.shields.io/badge/streamlit-1.30.0-red.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
+> Predict whether orders will be delivered on time using machine learning. Achieves 63.6% accuracy with Logistic Regression.
+
+
+
+
 Predict whether orders will be delivered on time using machine learning. Achieves 63.6% accuracy with Logistic Regression.
 
 
@@ -30,6 +35,29 @@ This project analyzes 10,999 e-commerce transactions to build a predictive model
 - **Streamlit** - Web application
 - **Matplotlib & Seaborn** - Visualizations
 
+##  Model Performance
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|--------|----------|
+| Logistic Regression | 63.6% | 70.4% | 67.4% | 68.9% |
+| Random Forest | 66.0% | 76.9% | 61.5% | 68.3% |
+| Gradient Boosting | 68.0% | 90.9% | 51.5% | 65.7% |
+
+
+
+##  Data Visualizations
+
+### Exploratory Data Analysis
+![EDA Plots](outputs/eda_plots.png)
+
+*Comprehensive analysis of delivery performance across different features including shipping mode, warehouse, product importance, customer ratings, and more.*
+
+### Model Performance Comparison
+![Model Comparison](outputs/model_comparison.png)
+
+*Performance metrics and ROC curves comparing Logistic Regression, Random Forest, and Gradient Boosting models.*
+
+
 ##  Quick Start
 ```bash
 # Activate virtual environment
@@ -45,14 +73,6 @@ python src/main_analysis.py
 # Run Streamlit app
 streamlit run app.py
 ```
-
-##  Model Performance
-
-| Model | Accuracy | Precision | Recall | F1-Score |
-|-------|----------|-----------|--------|----------|
-| Logistic Regression | 63.6% | 70.4% | 67.4% | 68.9% |
-| Random Forest | 66.0% | 76.9% | 61.5% | 68.3% |
-| Gradient Boosting | 68.0% | 90.9% | 51.5% | 65.7% |
 
 ##  Project Structure
 ```
@@ -76,7 +96,7 @@ ecommerce-delivery-prediction/
 ├── requirements.txt
 └── README.md
 ```
-```
+
 
 ##  Key Recommendations
 
@@ -90,3 +110,13 @@ ecommerce-delivery-prediction/
 - Reduce delays from 60% to <45%
 - Improve customer satisfaction by 20-25%
 - Annual value: $1M-1.4M
+
+
+
+##  Live Demo 🌐
+
+**Try the interactive web app:** [Launch Streamlit App](https://ecommerce-delivery-prediction.streamlit.app)
+
+**⭐ If you find this project useful, please give it a star!**
+
+![Made with](https://img.shields.io/badge/made%20with-❤️-red.svg)
