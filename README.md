@@ -114,9 +114,21 @@ ecommerce-delivery-prediction/
 
 ##  Live Demo 🌐
 
-**Try the interactive web app:** 
-(https://ecommerce-delivery-prediction.streamlit.app)
+**Try the interactive app:** 
+To run the interactive Streamlit app locally:
+```bash
+streamlit run app.py
+```
 
-**⭐ If you find this project useful, please give it a star ⭐!**
+Then open your browser at `http://localhost:8501`
+
+---
+
+
+## ⭐ Star This Repository
+**If you find this project useful, please give it a star ⭐!**
+**[⭐ Click here to star this repo](https://github.com/je-79/ecommerce-delivery-prediction)**
+
+---
 
  ![Made with](https://img.shields.io/badge/made%20with-❤️-red.svg)
