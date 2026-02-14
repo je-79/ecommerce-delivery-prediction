@@ -66,13 +66,13 @@ pip install -r requirements.txt
 ```
 
 
-# Run analysis
+## Run analysis
 ```bash
 python src/main_analysis.py
 ```
 
 
-# Run Streamlit app
+## Run Streamlit app
 ```bash
 streamlit run app.py
 ```
