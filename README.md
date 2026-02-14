@@ -8,8 +8,6 @@
 ![Streamlit](https://img.shields.io/badge/streamlit-1.30.0-red.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
-> Predict whether orders will be delivered on time using machine learning. Achieves 63.6% accuracy with Logistic Regression.
-
 
 
 
@@ -73,7 +71,7 @@ python src/main_analysis.py
 # Run Streamlit app
 streamlit run app.py
 ```
-
+```
 ##  Project Structure
 ```
 ecommerce-delivery-prediction/
@@ -99,12 +97,13 @@ ecommerce-delivery-prediction/
 
 
 ##  Key Recommendations
+```
 
 1. **Discount Strategy Overhaul** - Separate fulfillment for high-discount items
 2. **Weight-Based Routing** - Special handling for lightweight products
 3. **Priority Recalibration** - Fix high-importance item processing
 4. **Predictive Interventions** - Deploy model for real-time risk flagging
-
+```
 ##  Expected Business Impact
 
 - Reduce delays from 60% to <45%
@@ -115,8 +114,9 @@ ecommerce-delivery-prediction/
 
 ##  Live Demo 🌐
 
-**Try the interactive web app:** [Launch Streamlit App](https://ecommerce-delivery-prediction.streamlit.app)
+**Try the interactive web app:** 
+(https://ecommerce-delivery-prediction.streamlit.app)
 
-**⭐ If you find this project useful, please give it a star!**
+**⭐ If you find this project useful, please give it a star ⭐!**
 
-![Made with](https://img.shields.io/badge/made%20with-❤️-red.svg)
+ ![Made with](https://img.shields.io/badge/made%20with-❤️-red.svg)
