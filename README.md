@@ -1,7 +1,13 @@
 cat > README.md << 'EOF'
-#  E-Commerce Delivery Time Prediction
+# 📦 E-Commerce Delivery Time Prediction
 
-Predict whether orders will be delivered on time using machine learning.
+![Python](https://img.shields.io/badge/python-3.11-blue.svg)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-1.4.0-orange.svg)
+![Streamlit](https://img.shields.io/badge/streamlit-1.30.0-red.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+
+Predict whether orders will be delivered on time using machine learning. Achieves 63.6% accuracy with Logistic Regression.
+
 
 ##  Project Overview
 
