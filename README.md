@@ -65,15 +65,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+`
 # Run analysis
+`
 python src/main_analysis.py
 
+
+`
 # Run Streamlit app
 streamlit run app.py
-```
 
 
-```
+
+``
 ##  Project Structure
 ```
 ecommerce-delivery-prediction/
