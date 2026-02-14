@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 #  E-Commerce Delivery Time Prediction
 
 Predict whether orders will be delivered on time using machine learning.
@@ -67,6 +67,7 @@ ecommerce-delivery-prediction/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 ```
 
 ##  Key Recommendations
