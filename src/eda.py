@@ -146,9 +146,9 @@ class EDA:
         
     def print_key_insights(self):
         """Print key insights from EDA"""
-        print("\n" + "="*60)
+        print("\n" + "="*80)
         print("KEY INSIGHTS")
-        print("="*60)
+        print("="*80)
         
         # Discount insight
         avg_discount_ontime = self.df[self.df[self.target_col]==0]['Discount_offered'].mean()
