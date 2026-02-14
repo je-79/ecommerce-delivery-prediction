@@ -20,9 +20,9 @@ ENV/
 data/raw/*
 !data/raw/.gitkeep
 
-# Model files
-models/*.pkl
-models/*.joblib
+# Model files - KEEP our trained model!
+# models/*.pkl
+# models/*.joblib
 
 # IDE
 .vscode/
@@ -34,8 +34,9 @@ models/*.joblib
 .DS_Store
 Thumbs.db
 
-# Outputs
-outputs/*.png
-outputs/*.pdf
+# Outputs - KEEP our visualizations!
+# outputs/*.png
+# outputs/*.pdf
 !outputs/.gitkeep
+# Track these generated artifacts on GitHub
 EOF
