@@ -60,11 +60,28 @@ def load_data():
 @st.cache_resource
 def load_model():
     """Load and cache model"""
+    import os
+    
+    model_path = 'models/best_model.pkl'
+    
+    # Check if model exists
+    if not os.path.exists(model_path):
+        st.error(f"❌ Model file not found at: {model_path}")
+        st.info("""
+        **To generate the model:**
+        1. Open a terminal
+        2. Run: `python src/main_analysis.py`
+        3. Wait for training to complete
+        4. Refresh this page
+        """)
+        return None
+    
     try:
-        model = joblib.load('models/best_model.pkl')
+        model = joblib.load(model_path)
+        st.success("✅ Model loaded successfully!")
         return model
     except Exception as e:
-        st.warning("Model not found. Please run training first.")
+        st.error(f"Error loading model: {e}")
         return None
 
 
