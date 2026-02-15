@@ -104,10 +104,11 @@ ecommerce-delivery-prediction/
 ##  Key Recommendations
 ```
 
-1.** Discount Strategy Overhaul**- Separate fulfillment for high-discount items
-2.**Weight-Based Routing**- Special handling for lightweight products
-3.**Priority Recalibration**- Fix high-importance item processing
-4.**Predictive Interventions**- Deploy model for real-time risk flagging
+1. **Discount Strategy Overhaul** - Separate fulfillment for high-discount items
+2. **Weight-Based Routing** - Special handling for lightweight products
+3. **Priority Recalibration** - Fix high-importance item processing
+4. **Predictive Interventions** - Deploy model for real-time risk flagging
+
 ```
 ##  Expected Business Impact
 
